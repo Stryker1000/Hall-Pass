@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+  </head>
+  <body>
+    <div id = "main">
+      
+      <h4 id="time">The Current Time is:</h4>
+      <h4 id="date">The Current Date is:</h4>
+      <h4 id="destination">
+        Destination:
+        <br />
+      </h4>
+      <select id="destOption">
+        <option value="Bathroom">Bathroom</option>
+        <option value="Water">Water</option>
+        <option value="Office">Office</option>
+        <option value="Nurse">Nurse</option>
+        <option value="Guidance">Guidance Office</option>
+        <option value="Locker">Locker</option>
+        <option value="Another Classroom">Another Classroom</option>
+        <option value="Gym">Gym</option>
+        <option value="Cafeteria">Cafeteria</option>
+        <option value="Multiple">Multiple</option>
+        <option value="Other">Other</option>
+      </select>
+      <h3>Teacher Signature Below</h3>
+    <button type="button" onclick="loadPass();">Create Pass</button>
+    <br />
+    <br />
+          </div>
+  </body>
+  <script src="/Edit.js" defer></script>
+</html>

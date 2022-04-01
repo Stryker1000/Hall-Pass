@@ -1,0 +1,27 @@
+canvas {
+  border-style: dotted;
+  offset-position: bottom;
+}
+
+h4 {
+  color: #4a4a4a;
+}
+
+h3{
+  color: #4a4a4a
+}
+body {
+  touch-action: none;
+  background-color: #faf9f5;
+  
+}
+
+button{
+  background-color: yellow;
+  border-radius: 5px;
+}
+
+select{
+  background-color: yellow;
+
+}
